@@ -1,0 +1,4 @@
+for f in $(ls pr*)
+do
+cat $f >> repo.tar
+done 
